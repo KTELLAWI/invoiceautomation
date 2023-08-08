@@ -4,3 +4,4 @@ pypdfium
 python-dotenv
 langchain
 streamlit
+pypdfium2
