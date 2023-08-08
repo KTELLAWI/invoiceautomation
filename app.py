@@ -55,7 +55,7 @@ def extract_text_from_img(list_dict_final_images):
 
         image = Image.open(BytesIO(image_bytes))
         # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\DELL\Downloads\Tesseract-OCR\tesseract.exe'
-        raw_text = str(pytesseract.image_to_string(image))
+        raw_text = str(image_to_string(image))
         image_content.append(raw_text)
 
     return "\n".join(image_content)
