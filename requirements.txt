@@ -1,10 +1,6 @@
-langchain
-dotenv 
 pytesseract 
-PIL 
-tempfile 
-pandas
-io
-json
 requests
 pypdfium
+python-dotenv
+langchain
+streamlit
