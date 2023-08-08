@@ -1,9 +1,7 @@
-
 langchain
 dotenv 
 pytesseract 
 PIL 
-streamlit
 tempfile 
 pandas
 io
