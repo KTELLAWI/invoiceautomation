@@ -139,8 +139,8 @@ def main():
     if uploaded_files is not None and data_points is not None:
         results = []
         for file in uploaded_files:
-            with NamedTemporaryFile(dir='.', suffix='.csv') as f:
-                f.write(file.getbuffer())
+            # with NamedTemporaryFile(dir='.', suffix='.csv') as f:
+            #     f.write(file.getbuffer())
                 content = convert_pdf_to_images(file.name)
                 content1= extract_text_from_img(content)
                 # content = extract_content_from_url(f.name)
