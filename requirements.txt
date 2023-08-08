@@ -5,4 +5,3 @@ python-dotenv
 langchain
 streamlit
 pypdfium2
-tesseract-ocr
